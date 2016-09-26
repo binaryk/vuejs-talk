@@ -1,0 +1,51 @@
+*{
+  outline: none;
+}
+html {
+  height: 100%;
+}
+
+body {
+  background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/wall4.png") repeat;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: Source Sans Pro, Helvetica, sans-serif;
+
+}
+
+#app {
+  color: #2c3e50;
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#app a {
+  color: #42b983;
+  text-decoration: none;
+}
+
+#app a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 100px;
+  height: 100px
+}
+
+.link {
+  margin-left: 4px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.root-content {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+}
